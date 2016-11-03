@@ -10,4 +10,7 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
     }
+
+    //NEED TO LINK ALL ICONS TO THEIR RESPECTIVE UIs.
+
 }
