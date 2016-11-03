@@ -13,6 +13,12 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="ht_sharethelove">#ShareTheLove</string>
+    <string name="lbl_facebook_handle">Miami Vineyard</string>
+    <string name="lbl_instagram_handle">MiamiVineyard</string>
+    <string name="lbl_twitter_handle">MiamiVineyard</string>
+    <string name="lbl_vimeo_handle">MiamiVineyard</string>
+    <string name="lbl_youtube_handle">MiamiVineyard</string>
 
     <!-- Home UI -->
     <!-- Schedule UI -->

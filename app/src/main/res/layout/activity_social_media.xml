@@ -12,108 +12,113 @@
     tools:context="com.miamivineyard.sagrariogrullon.mvcc_volunteer_management_app.SocialMediaActivity">
 
     <ImageButton
+        android:id="@+id/imgbtnFacebook"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:contentDescription="@string/lbl_facebook_handle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher"
         android:layout_marginLeft="35dp"
         android:layout_marginStart="35dp"
         android:layout_marginTop="18dp"
-        android:id="@+id/imgbtnFacebook"
         android:layout_below="@+id/txtvwHeader"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <ImageButton
+        android:id="@+id/imgbtnTwitter"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:contentDescription="@string/lbl_twitter_handle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher"
-        android:id="@+id/imgbtnTwitter"
         android:layout_below="@+id/imgbtnInstagram"
         android:layout_alignLeft="@+id/imgbtnInstagram"
         android:layout_alignStart="@+id/imgbtnInstagram" />
 
     <ImageButton
+        android:id="@+id/imgbtnInstagram"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:contentDescription="@string/lbl_instagram_handle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher"
-        android:id="@+id/imgbtnInstagram"
         android:layout_below="@+id/imgbtnFacebook"
         android:layout_alignLeft="@+id/imgbtnFacebook"
         android:layout_alignStart="@+id/imgbtnFacebook" />
 
     <ImageButton
+        android:id="@+id/imgbtnVimeo"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:contentDescription="@string/lbl_vimeo_handle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher"
         android:layout_below="@+id/imgbtnTwitter"
         android:layout_alignLeft="@+id/imgbtnTwitter"
-        android:layout_alignStart="@+id/imgbtnTwitter"
-        android:id="@+id/imgbtnVimeo" />
+        android:layout_alignStart="@+id/imgbtnTwitter" />
 
     <ImageButton
+        android:id="@+id/imgbtnYouTube"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:contentDescription="@string/lbl_youtube_handle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher"
         android:layout_below="@+id/imgbtnVimeo"
         android:layout_alignLeft="@+id/imgbtnVimeo"
-        android:layout_alignStart="@+id/imgbtnVimeo"
-        android:id="@+id/imgbtnYouTube" />
+        android:layout_alignStart="@+id/imgbtnVimeo" />
 
     <TextView
-        android:text="#ShareTheLove"
+        android:id="@+id/txtvwHeader"
+        android:text="@string/ht_sharethelove"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:id="@+id/txtvwHeader"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
     <TextView
-        android:text="Miami Vineyard"
+        android:id="@+id/txtvwFacebook"
+        android:text="@string/lbl_facebook_handle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/imgbtnFacebook"
         android:layout_alignLeft="@+id/txtvwHeader"
         android:layout_alignStart="@+id/txtvwHeader"
-        android:layout_marginTop="24dp"
-        android:id="@+id/txtvwFacebook" />
+        android:layout_marginTop="24dp" />
 
     <TextView
-        android:text="@MiamiVineyard"
+        android:id="@+id/txtvwInstagram"
+        android:text="@string/lbl_instagram_handle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imgbtnFacebook"
         android:layout_alignLeft="@+id/txtvwFacebook"
         android:layout_alignStart="@+id/txtvwFacebook"
-        android:layout_marginTop="23dp"
-        android:id="@+id/txtvwInstagram" />
+        android:layout_marginTop="23dp" />
 
     <TextView
-        android:text="@MiamiVineyard"
+        android:id="@+id/txtvwTwitter"
+        android:text="@string/lbl_instagram_handle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imgbtnInstagram"
         android:layout_alignLeft="@+id/txtvwInstagram"
         android:layout_alignStart="@+id/txtvwInstagram"
-        android:layout_marginTop="22dp"
-        android:id="@+id/txtvwTwitter" />
+        android:layout_marginTop="22dp"/>
 
     <TextView
-        android:text="@MiamiVineyard"
+        android:id="@+id/txtvwVimeo"
+        android:text="@string/lbl_twitter_handle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/txtvwVimeo"
         android:layout_below="@+id/imgbtnTwitter"
         android:layout_alignLeft="@+id/txtvwTwitter"
         android:layout_alignStart="@+id/txtvwTwitter"
         android:layout_marginTop="25dp" />
 
     <TextView
-        android:text="@MiamiVineyard"
+        android:id="@+id/txtvwYouTube"
+        android:text="@string/lbl_youtube_handle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="23dp"
-        android:id="@+id/txtvwYouTube"
         android:layout_alignBottom="@+id/imgbtnYouTube"
         android:layout_alignLeft="@+id/txtvwVimeo"
         android:layout_alignStart="@+id/txtvwVimeo" />
