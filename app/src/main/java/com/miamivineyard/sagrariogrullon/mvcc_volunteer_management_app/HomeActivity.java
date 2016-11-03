@@ -12,5 +12,6 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     //NEED TO LINK ALL ICONS TO THEIR RESPECTIVE UIs.
+    //test
 
 }
