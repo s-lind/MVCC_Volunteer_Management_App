@@ -28,9 +28,13 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.2.1'
     compile 'com.android.support:design:24.2.1'
 
+    //sdk for ms azure
+    compile 'com.microsoft.azure:azure-mobile-android:3.1.0'
+
+
     //added for Google FireBase
-    compile 'com.google.firebase:firebase-core:9.8.0'
-    compile 'com.google.firebase:firebase-database:9.8.0'
+    //compile 'com.google.firebase:firebase-core:9.8.0'
+    //compile 'com.google.firebase:firebase-database:9.8.0'
     //compile 'com.google.firebase:firebase-auth:9.8.0'
     //compile 'com.google.firebase:firebase-messaging:9.8.0'
     // Getting a "Could not find" error? Make sure you have
@@ -40,4 +44,4 @@ dependencies {
 }
 
 //following apply plugin: line works for Google FireBase
-apply plugin: 'com.google.gms.google-services'
+//apply plugin: 'com.google.gms.google-services'
