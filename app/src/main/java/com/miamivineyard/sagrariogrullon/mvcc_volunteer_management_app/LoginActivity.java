@@ -32,9 +32,24 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static android.Manifest.permission.READ_CONTACTS;
-
-import com.microsoft.windowsazure.mobileservices.*;
+//imports for ms azure
+import com.microsoft.windowsazure.mobileservices.MobileServiceClient;
+import com.microsoft.windowsazure.mobileservices.http.NextServiceFilterCallback;
+import com.microsoft.windowsazure.mobileservices.http.OkHttpClientFactory;
+import com.microsoft.windowsazure.mobileservices.http.ServiceFilter;
+import com.microsoft.windowsazure.mobileservices.http.ServiceFilterRequest;
 import com.microsoft.windowsazure.mobileservices.http.ServiceFilterResponse;
+import com.microsoft.windowsazure.mobileservices.table.MobileServiceTable;
+import com.microsoft.windowsazure.mobileservices.table.query.Query;
+import com.microsoft.windowsazure.mobileservices.table.query.QueryOperations;
+import com.microsoft.windowsazure.mobileservices.table.sync.MobileServiceSyncContext;
+import com.microsoft.windowsazure.mobileservices.table.sync.MobileServiceSyncTable;
+import com.microsoft.windowsazure.mobileservices.table.sync.localstore.ColumnDataType;
+import com.microsoft.windowsazure.mobileservices.table.sync.localstore.MobileServiceLocalStoreException;
+import com.microsoft.windowsazure.mobileservices.table.sync.localstore.SQLiteLocalStore;
+import com.microsoft.windowsazure.mobileservices.table.sync.synchandler.SimpleSyncHandler;
+
+import static com.microsoft.windowsazure.mobileservices.table.query.QueryOperations.*;
 
 /**
  * A login screen that offers login via email/password.
@@ -42,7 +57,7 @@ import com.microsoft.windowsazure.mobileservices.http.ServiceFilterResponse;
 public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<Cursor> {
 
     //private variable for ms azure
-    private MobileServiceClient mClient;
+    private static MobileServiceClient mClient;
 
     /**
      * Id to identity READ_CONTACTS permission request.
@@ -69,30 +84,6 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
-        //mClient for ms azure
-        /*
-        try {
-            mClient = new MobileServiceClient("https://miamivineyard.azurewebsites.net",this);
-
-            //Todoitem Class usage for MS Azure testing
-            final TodoItem item = new TodoItem();
-            item.Text = "Awesome item";
-            mClient.getTable(TodoItem.class).insert(item, new TableOperationCallback<item>() {
-                public void onCompleted(TodoItem entity, Exception exception, ServiceFilterResponse response) {
-                    if (exception == null) {
-                        // Insert succeeded
-                    } else {
-                        // Insert failed
-                    }
-                }
-            });
-            //ms azure test ends
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
-        }
-        */
-
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
@@ -122,6 +113,33 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
         mLoginFormView = findViewById(R.id.login_form);
         mProgressView = findViewById(R.id.login_progress);
+
+        /*
+        //mClient for ms azure
+        try {
+            mClient = new MobileServiceClient("https://miamivineyard.azurewebsites.net",this);
+
+            //Todoitem Class usage for MS Azure testing
+            TodoItem item = new TodoItem();
+            item.Text = "Awesome item";
+
+            mClient.getTable(TodoItem.class).insert(item, new TableOperationCallback<item>() {
+
+                        public void onCompleted(TodoItem entity, Exception exception, ServiceFilterResponse response) {
+                            if (exception == null) {
+                                // Insert succeeded
+                            } else {
+                                // Insert failed
+                            }
+                        }
+                    });
+            //ms azure test ends
+
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
+*/
+
     }
 
 

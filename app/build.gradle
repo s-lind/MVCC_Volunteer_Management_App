@@ -30,6 +30,7 @@ dependencies {
 
     //sdk for ms azure
     compile 'com.microsoft.azure:azure-mobile-android:3.1.0'
+    compile (group: 'com.microsoft.azure', name: 'azure-notifications-handler', version: '1.0.1', ext: 'jar')
 
 
     //added for Google FireBase
