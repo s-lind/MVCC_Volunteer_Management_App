@@ -56,7 +56,7 @@
         android:layout_height="wrap_content"
         android:ellipsize="start"
         android:gravity="center"
-        android:hint="Text here"
+        android:hint="Prayer Text here"
         android:inputType="text"
 
         android:background="@drawable/backwithborder"
