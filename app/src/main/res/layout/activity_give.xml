@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_give"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.miamivineyard.sagrariogrullon.mvcc_volunteer_management_app.GiveActivity"
+    android:background="@drawable/wine">
+
+    <ImageButton
+        android:id="@+id/imgbtnGiveTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/txtvwGiveHeader"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/txtvwGiveViaText"
+        android:text="@string/lblGiveViaText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:layout_alignTop="@+id/imgbtnGiveTxt"
+        android:layout_toRightOf="@+id/imgbtnGiveTxt"
+        android:layout_toEndOf="@+id/imgbtnGiveTxt"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_send"
+        android:layout_below="@+id/imgbtnGiveTxt"
+        android:layout_alignLeft="@+id/imgbtnGiveTxt"
+        android:layout_alignStart="@+id/imgbtnGiveTxt"
+        android:layout_marginTop="30dp"
+        android:id="@+id/imageButton2" />
+
+    <TextView
+        android:id="@+id/txtvwGiveOnline"
+        android:text="@string/lblGiveOnline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:layout_alignTop="@+id/imageButton2"
+        android:layout_alignLeft="@+id/txtvwGiveViaText"
+        android:layout_alignStart="@+id/txtvwGiveViaText" />
+
+    <TextView
+        android:id="@+id/txtvwGiveHeader"
+        android:text="@string/lbl_GiveHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txtvwGiveAtBookstore"
+        android:text="@string/lblGiveAtBookstore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/imageButton2"
+        android:layout_alignLeft="@+id/imageButton2"
+        android:layout_alignStart="@+id/imageButton2" />
+</RelativeLayout>

@@ -27,7 +27,8 @@
         <activity android:name=".ScheduleActivity" />
         <activity android:name=".SocialMediaActivity" />
         <activity android:name=".BulletinBoardActivity" />
-        <activity android:name=".PrayerRequestActivity"/>
+        <activity android:name=".PrayerRequestActivity" />
+        <activity android:name=".GiveActivity"></activity>
     </application>
 
 </manifest>
