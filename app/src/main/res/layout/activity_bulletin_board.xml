@@ -8,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.miamivineyard.sagrariogrullon.mvcc_volunteer_management_app.BulletinBoardActivity">
+    tools:context="com.miamivineyard.sagrariogrullon.mvcc_volunteer_management_app.BulletinBoardActivity"
+    android:background="@drawable/wine">
 
     <TextView
         android:text="Select Team for latest feed"

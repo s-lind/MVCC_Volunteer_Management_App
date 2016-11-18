@@ -9,7 +9,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.miamivineyard.sagrariogrullon.mvcc_volunteer_management_app.SocialMediaActivity">
+    tools:context="com.miamivineyard.sagrariogrullon.mvcc_volunteer_management_app.SocialMediaActivity"
+    android:background="@drawable/wine">
 
     <ImageButton
         android:id="@+id/imgbtnFacebook"
