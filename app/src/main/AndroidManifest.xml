@@ -28,7 +28,8 @@
         <activity android:name=".SocialMediaActivity" />
         <activity android:name=".BulletinBoardActivity" />
         <activity android:name=".PrayerRequestActivity" />
-        <activity android:name=".GiveActivity"></activity>
+        <activity android:name=".GiveActivity" />
+        <activity android:name=".PodcastsActivity"></activity>
     </application>
 
 </manifest>
