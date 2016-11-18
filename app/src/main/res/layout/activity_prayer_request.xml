@@ -1,44 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_prayer_request"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.miamivineyard.sagrariogrullon.mvcc_volunteer_management_app.PrayerRequestActivity">
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".PrayerRequestActivity"
+    android:background="@drawable/wine"
+    android:weightSum="1">
 
     <TextView
-        android:text="Send us a prayer request and our Pastors will pray for you by name!"
-        android:layout_width="wrap_content"
+        android:text="Prayer Request Form"
+        android:layout_width="366dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="27dp"
-        android:id="@+id/txtvwHeader"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_weight="0.03"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
-    <Button
-        android:text="Send"
-        android:layout_width="wrap_content"
+    <TextView
+        android:text="Send us a prayer request and the our Pastors will pray for you by name"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="27dp"
-        android:id="@+id/btnSendPrayerRequest" />
+        android:id="@+id/textView2"
+        android:layout_weight="0.03"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <TextView
+        android:text="Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backwithborder"
+        android:id="@+id/editTextEmail"
+        android:layout_weight="0.09" />
+    <TextView
+        android:text="Type of Request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backwithborder"
+        android:id="@+id/editTextSubject"
+        android:layout_weight="0.09" />
 
     <EditText
-        android:layout_width="wrap_content"
+        android:lines="10"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:hint="Text here"
         android:inputType="text"
-        android:text="Prayer Request"
-        android:ems="10"
-        android:layout_below="@+id/txtvwHeader"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="29dp"
-        android:layout_marginStart="29dp"
-        android:layout_marginTop="44dp"
-        android:id="@+id/edtxtPrayerBody" />
-</RelativeLayout>
+
+        android:background="@drawable/backwithborder"
+        android:allowUndo="true"
+        android:layout_weight="0.74" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonSend"
+        android:text="Send"/>
+</LinearLayout>
