@@ -12,6 +12,7 @@
     <string name="error_field_required">This field is required.</string>
     <string name="permission_rationale">Contacts permissions are needed for providing email completions.</string>
 
+    <!-- Social Media UI -->
     <string name="ht_sharethelove">#ShareTheLove</string>
     <string name="lbl_facebook_handle">Miami Vineyard</string>
     <string name="lbl_instagram_handle">MiamiVineyard</string>
@@ -22,7 +23,6 @@
     <!-- Home UI -->
     <!-- Schedule UI -->
     <!-- Bulletin Board UI -->
-    <!-- Social Media UI -->
     <!-- Prayer Request UI -->
 
 </resources>
