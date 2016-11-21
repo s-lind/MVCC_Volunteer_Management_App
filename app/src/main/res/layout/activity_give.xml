@@ -22,7 +22,9 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginLeft="20dp"
-        android:layout_marginStart="20dp" />
+        android:layout_marginStart="20dp"
+        android:contentDescription="Give Via Text"
+        />
 
     <TextView
         android:id="@+id/txtvwGiveViaText"
@@ -44,11 +46,13 @@
         android:layout_alignLeft="@+id/imgbtnGiveTxt"
         android:layout_alignStart="@+id/imgbtnGiveTxt"
         android:layout_marginTop="30dp"
-        android:id="@+id/imageButton2" />
+        android:id="@+id/imageButton2"
+        android:contentDescription="Give"
+        />
 
     <TextView
         android:id="@+id/txtvwGiveOnline"
-        android:text="@string/lblGiveOnline"
+        android:text="@string/WebGiving"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="17dp"

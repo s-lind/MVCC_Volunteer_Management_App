@@ -14,8 +14,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".LoginActivity"
+        <activity android:name=".LoginActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,13 +22,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HomeActivity" />
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="com.miamivineyard.sagrariogrullon.mvcc_volunteer_management_app" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".ScheduleActivity" />
         <activity android:name=".SocialMediaActivity" />
         <activity android:name=".BulletinBoardActivity" />
         <activity android:name=".PrayerRequestActivity" />
-        <activity android:name=".GiveActivity" />
-        <activity android:name=".PodcastsActivity"></activity>
+        <activity android:name=".GiveActivity" >
+            <intent-filter>
+                <action android:name="com.miamivineyard.sagrariogrullon.mvcc_volunteer_management_app" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PodcastsActivity"/>
     </application>
 
 </manifest>
