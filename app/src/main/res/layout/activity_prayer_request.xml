@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".PrayerRequestActivity"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".PrayerRequestActivity"
     android:background="@drawable/wine"
     android:weightSum="1">
 
     <TextView
-        android:text="Prayer Request Form"
+        android:text="@string/txtvwPrayerRequestHeader"
         android:layout_width="366dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.03"
         android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
     <TextView
-        android:text="Send us a prayer request and the our Pastors will pray for you by name"
+        android:text="@string/txtvwPrayerRequestIntro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView2"
@@ -25,7 +28,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
     <TextView
-        android:text="Name"
+        android:text="@string/txtvwName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <EditText
@@ -35,7 +38,7 @@
         android:id="@+id/editTextEmail"
         android:layout_weight="0.09" />
     <TextView
-        android:text="Type of Request"
+        android:text="@string/txtvwRequestType"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <EditText
@@ -56,9 +59,8 @@
         android:layout_height="wrap_content"
         android:ellipsize="start"
         android:gravity="center"
-        android:hint="Prayer Text here"
+        android:hint="@string/edttxtPrayerText"
         android:inputType="text"
-
         android:background="@drawable/backwithborder"
         android:allowUndo="true"
         android:layout_weight="0.74" />
@@ -67,5 +69,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/buttonSend"
-        android:text="Send"/>
+        android:text="@string/btnSendPrayerRequest"/>
 </LinearLayout>

@@ -30,7 +30,12 @@
     <string name="lblPodcastsHeader">Podcasts</string>
     <string name="lblWebPodcasts">MiamiVineyard.com</string>
     <string name="lblYouTubePodcasts">Miami Vineyard</string>
-
+    <string name="btnSendPrayerRequest">Send</string>
+    <string name="edttxtPrayerText">Prayer goes here.</string>
+    <string name="txtvwRequestType">Type of Request</string>
+    <string name="txtvwName">Name</string>
+    <string name="txtvwPrayerRequestIntro">Send us a prayer request and one of our Pastors will pray for you by name.</string>
+    <string name="txtvwPrayerRequestHeader">Prayer Requests</string>
 
 
     <!-- Home UI -->

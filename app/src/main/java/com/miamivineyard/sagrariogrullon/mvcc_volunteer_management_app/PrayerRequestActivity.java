@@ -10,4 +10,6 @@ public class PrayerRequestActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_prayer_request);
     }
+
+    //email to send prayer requests to ptretbar@hotmail.com
 }
