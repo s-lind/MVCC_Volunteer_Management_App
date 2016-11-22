@@ -9,5 +9,8 @@ public class SocialMediaActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_social_media);
+
+        //need to link all image buttons and text views to go to their respective social media site - see Give Activity for example
+
     }
 }

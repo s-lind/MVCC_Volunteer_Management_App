@@ -9,5 +9,10 @@ public class PodcastsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_podcasts);
+
+
+        // need to link image buttons and textviews to urls  - see Give Activity for example
+
+
     }
 }

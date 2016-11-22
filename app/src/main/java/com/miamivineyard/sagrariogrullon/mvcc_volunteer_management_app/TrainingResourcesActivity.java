@@ -9,5 +9,8 @@ public class TrainingResourcesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_training_resources);
+
+        //need to link image buttons to their respective urls  - see Give Activity for example
+
     }
 }
