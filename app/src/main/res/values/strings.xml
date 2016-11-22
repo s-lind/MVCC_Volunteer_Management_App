@@ -26,7 +26,7 @@
     <string name="lblGiveViaText">Text your gift amount to (305) 440.4455.</string>
     <string name="lblGiveAtBookstore">You can also give by credit or debit card at our Bookstore.</string>
     <!-- Podcasts UI -->
-    <string name="lblPodcastsIntro">Podcasts are available through our website or through our YouTue channel.</string>
+    <string name="lblPodcastsIntro">Podcasts are available through our website or through our YouTube channel.</string>
     <string name="lblPodcastsHeader">Podcasts</string>
     <string name="lblWebPodcasts">MiamiVineyard.com</string>
     <string name="lblYouTubePodcasts">Miami Vineyard</string>

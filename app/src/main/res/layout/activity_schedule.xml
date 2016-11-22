@@ -30,7 +30,7 @@
         android:id="@+id/clnvwSchedule" />
 
     <TextView
-        android:text="Select your Team to view your schedule"
+        android:text="Select your Team to view your schedule.."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -39,5 +39,9 @@
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_alignLeft="@+id/clnvwSchedule"
-        android:layout_alignStart="@+id/clnvwSchedule" />
+        android:layout_alignStart="@+id/clnvwSchedule"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
 </RelativeLayout>

@@ -16,16 +16,22 @@
         android:text="@string/txtvwPrayerRequestHeader"
         android:layout_width="366dp"
         android:layout_height="wrap_content"
-        android:layout_weight="0.03"
-        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+        android:layout_weight="0.08"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textStyle="normal|bold"
+        android:textSize="20sp"
+        android:textAlignment="center" />
 
     <TextView
         android:text="@string/txtvwPrayerRequestIntro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView2"
-        android:layout_weight="0.03"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+        android:layout_weight="0.10"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center" />
 
     <TextView
         android:text="@string/txtvwName"
@@ -63,7 +69,7 @@
         android:inputType="text"
         android:background="@drawable/backwithborder"
         android:allowUndo="true"
-        android:layout_weight="0.74" />
+        android:layout_weight="0.40" />
 
     <Button
         android:layout_width="match_parent"
