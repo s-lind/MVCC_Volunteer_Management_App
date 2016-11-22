@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_training_resources"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.miamivineyard.sagrariogrullon.mvcc_volunteer_management_app.TrainingResourcesActivity"
+    android:background="@drawable/wine">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="38dp"
+        android:id="@+id/txtvwTrainingVideos"
+        android:text="Training Videos"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:text="Step-by-Step Guides"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:layout_marginTop="151dp"
+        android:layout_below="@+id/txtvwTrainingVideos"
+        android:layout_alignLeft="@+id/txtvwTrainingVideos"
+        android:layout_alignStart="@+id/txtvwTrainingVideos"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/youtube"
+        android:layout_marginTop="18dp"
+        android:id="@+id/imgbtnTrainYT"
+        android:scaleType="fitCenter"
+        android:layout_below="@+id/txtvwTrainingVideos"
+        android:layout_alignLeft="@+id/txtvwTrainingVideos"
+        android:layout_alignStart="@+id/txtvwTrainingVideos" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/vimeo"
+        android:id="@+id/imgbtnTrainVimeo"
+        android:scaleType="fitCenter"
+        android:layout_alignTop="@+id/imgbtnTrainYT"
+        android:layout_toRightOf="@+id/imgbtnTrainYT"
+        android:layout_toEndOf="@+id/imgbtnTrainYT"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@android:drawable/stat_sys_download_done"
+        android:id="@+id/imgbtnTrainDropbox"
+        android:scaleType="fitCenter"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_marginTop="22dp"
+        android:backgroundTint="@android:color/holo_green_light" />
+
+    <TextView
+        android:text="For more training resources please reach out to your Team Leader."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:id="@+id/txtvwTrainingExtra"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:layout_below="@+id/imgbtnTrainDropbox"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/black" />
+</RelativeLayout>

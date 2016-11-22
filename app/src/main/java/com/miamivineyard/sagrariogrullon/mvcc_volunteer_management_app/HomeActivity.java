@@ -87,7 +87,18 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
-        //ETC
+        //training resources
+        ImageButton btnTraining = (ImageButton) findViewById(R.id.imgbtnTraining);
+        btnTraining.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                //what happens when it clicks?
+                Intent training = new Intent(HomeActivity.this, TrainingResourcesActivity.class);
+                startActivity(training);
+            }
+        });
+
+        //devotionals linking code goes here
     }
 
 }

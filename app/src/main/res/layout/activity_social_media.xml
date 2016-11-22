@@ -23,7 +23,8 @@
         android:textSize="24sp"
         android:textStyle="normal|bold"
         android:textAlignment="center"
-        android:fontFamily="sans-serif" />
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/black" />
 
     <ImageButton
         android:id="@+id/imgbtnFacebook"
@@ -52,7 +53,8 @@
         android:layout_marginBottom="12dp"
         android:layout_above="@+id/imgbtnTwitter"
         android:layout_alignRight="@+id/txtvwHeader"
-        android:layout_alignEnd="@+id/txtvwHeader" />
+        android:layout_alignEnd="@+id/txtvwHeader"
+        android:textColor="@android:color/black" />
 
     <TextView
         android:id="@+id/txtvwTwitter"
@@ -65,7 +67,8 @@
         android:layout_above="@+id/imgbtnInstagram"
         android:layout_alignLeft="@+id/txtvwFacebook"
         android:layout_alignStart="@+id/txtvwFacebook"
-        android:layout_marginBottom="13dp" />
+        android:layout_marginBottom="13dp"
+        android:textColor="@android:color/black" />
 
     <ImageButton
         android:id="@+id/imgbtnYouTube"
@@ -104,7 +107,8 @@
         android:layout_alignBottom="@+id/imgbtnVimeo"
         android:layout_alignLeft="@+id/txtvwInstagram"
         android:layout_alignStart="@+id/txtvwInstagram"
-        android:layout_marginBottom="12dp" />
+        android:layout_marginBottom="12dp"
+        android:textColor="@android:color/black" />
 
     <TextView
         android:id="@+id/txtvwYouTube"
@@ -117,7 +121,8 @@
         android:layout_alignTop="@+id/imgbtnYouTube"
         android:layout_alignLeft="@+id/txtvwVimeo"
         android:layout_alignStart="@+id/txtvwVimeo"
-        android:layout_marginTop="13dp" />
+        android:layout_marginTop="13dp"
+        android:textColor="@android:color/black" />
 
     <TextView
         android:id="@+id/txtvwInstagram"
@@ -130,7 +135,8 @@
         android:layout_above="@+id/imgbtnVimeo"
         android:layout_alignLeft="@+id/txtvwTwitter"
         android:layout_alignStart="@+id/txtvwTwitter"
-        android:layout_marginBottom="10dp" />
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/black" />
 
     <ImageButton
         android:id="@+id/imgbtnInstagram"
