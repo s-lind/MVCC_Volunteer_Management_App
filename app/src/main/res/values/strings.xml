@@ -36,6 +36,7 @@
     <string name="txtvwName">Name</string>
     <string name="txtvwPrayerRequestIntro">Send us a prayer request and one of our Pastors will pray for you by name.</string>
     <string name="txtvwPrayerRequestHeader">Prayer Requests</string>
+    <string name="txtvwHomeHeader">Welcome to the Miami Vineyard Volunteer Connect BETA App!</string>
 
 
     <!-- Home UI -->
