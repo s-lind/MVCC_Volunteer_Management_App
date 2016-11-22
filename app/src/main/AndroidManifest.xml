@@ -26,51 +26,60 @@
         <activity android:name=".HomeActivity">
             <intent-filter>
                 <action android:name="com.miamivineyard.sagrariogrullon.mvcc_volunteer_management_app" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".ScheduleActivity" >
+        <activity android:name=".ScheduleActivity">
             <intent-filter>
                 <action android:name="com.miamivineyard.sagrariogrullon.mvcc_volunteer_management_app" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".SocialMediaActivity" >
+        <activity android:name=".SocialMediaActivity">
             <intent-filter>
                 <action android:name="com.miamivineyard.sagrariogrullon.mvcc_volunteer_management_app" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".BulletinBoardActivity" >
+        <activity android:name=".BulletinBoardActivity">
             <intent-filter>
                 <action android:name="com.miamivineyard.sagrariogrullon.mvcc_volunteer_management_app" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".PrayerRequestActivity" >
+        <activity android:name=".PrayerRequestActivity">
             <intent-filter>
                 <action android:name="com.miamivineyard.sagrariogrullon.mvcc_volunteer_management_app" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity android:name=".GiveActivity">
             <intent-filter>
                 <action android:name="com.miamivineyard.sagrariogrullon.mvcc_volunteer_management_app" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity android:name=".PodcastsActivity">
             <intent-filter>
                 <action android:name="com.miamivineyard.sagrariogrullon.mvcc_volunteer_management_app" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity android:name=".TrainingResourcesActivity">
             <intent-filter>
                 <action android:name="com.miamivineyard.sagrariogrullon.mvcc_volunteer_management_app" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".DevotionalsActivity"></activity>
     </application>
 
 </manifest>

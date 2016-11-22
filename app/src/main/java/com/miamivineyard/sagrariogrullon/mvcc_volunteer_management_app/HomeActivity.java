@@ -98,7 +98,16 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
-        //devotionals linking code goes here
+        //devotionals
+        ImageButton btnDevotionals = (ImageButton) findViewById(R.id.imgbtnDevotionals);
+        btnDevotionals.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                //what happens when it clicks?
+                Intent devotionals = new Intent(HomeActivity.this, DevotionalsActivity.class);
+                startActivity(devotionals);
+            }
+        });
     }
 
 }
