@@ -14,9 +14,9 @@
 
     <ImageButton
         android:id="@+id/imgbtnGiveTxt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/ic_dialog_email"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/sms"
         android:layout_marginTop="43dp"
         android:layout_below="@+id/txtvwGiveHeader"
         android:layout_alignParentLeft="true"
@@ -24,7 +24,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginStart="20dp"
         android:contentDescription="Give Via Text"
-        />
+        android:scaleType="fitCenter" />
 
     <TextView
         android:id="@+id/txtvwGiveViaText"
@@ -43,16 +43,16 @@
         android:textSize="16sp" />
 
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/ic_menu_send"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/web"
         android:layout_below="@+id/imgbtnGiveTxt"
         android:layout_alignLeft="@+id/imgbtnGiveTxt"
         android:layout_alignStart="@+id/imgbtnGiveTxt"
         android:layout_marginTop="30dp"
         android:id="@+id/imageButton2"
         android:contentDescription="Give"
-        />
+        android:scaleType="fitCenter" />
 
     <TextView
         android:id="@+id/txtvwGiveOnline"
