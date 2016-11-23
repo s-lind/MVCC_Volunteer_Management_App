@@ -68,7 +68,7 @@
 
     <TextView
         android:id="@+id/txtvwYouTubePodcasts"
-        android:text="@string/lblYouTubePodcasts"
+        android:text="@string/YouTubePodcasts"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="normal|bold"

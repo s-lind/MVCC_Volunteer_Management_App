@@ -2,6 +2,8 @@ package com.miamivineyard.sagrariogrullon.mvcc_volunteer_management_app;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
+import android.widget.TextView;
 
 public class PodcastsActivity extends AppCompatActivity {
 
@@ -12,6 +14,17 @@ public class PodcastsActivity extends AppCompatActivity {
 
 
         // need to link image buttons and textviews to urls  - see Give Activity for example
+        //Web Podcasts
+        TextView mWebPodcasts = (TextView) findViewById(R.id.txtvwWebPodcast);
+        if (mWebPodcasts != null) {
+            mWebPodcasts.setMovementMethod(LinkMovementMethod.getInstance());
+        }
+
+        //Youtube Podcasts
+        TextView mYouTubePodcasts = (TextView) findViewById(R.id.txtvwYouTubePodcasts);
+        if (mYouTubePodcasts != null) {
+            mYouTubePodcasts.setMovementMethod(LinkMovementMethod.getInstance());
+        }
 
 
     }

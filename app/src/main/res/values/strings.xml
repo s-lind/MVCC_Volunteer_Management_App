@@ -20,7 +20,6 @@
     <string name="lbl_vimeo_handle">MiamiVineyard</string>
     <string name="lbl_youtube_handle">MiamiVineyard</string>
     <!-- Give UI -->
-    <string name="WebGiving"><a href="https://e-giving.org/egivinglogin.asp?id=2387">Go to our Online E-Giving Program</a></string>
     <string name="lblGiveOnline">Go to our Online E-Giving Program.</string>
     <string name="lbl_GiveHeader">Ways to Give</string>
     <string name="lblGiveViaText">Text your gift amount to (305) 440.4455.</string>
@@ -38,10 +37,17 @@
     <string name="txtvwPrayerRequestHeader">Prayer Requests</string>
     <string name="txtvwHomeHeader">Welcome to the Miami Vineyard Volunteer Connect BETA App!</string>
 
+    <!-- URLS -->
+    <string name="WebGiving"><a href="https://e-giving.org/egivinglogin.asp?id=2387">Go to our Online E-Giving Program</a></string>
+    <string name="FacebookProfile"><a href="https://www.facebook.com/miamivineyard">Miami Vineyard</a></string>
+    <string name="TwitterProfile"><a href="https://twitter.com/miamivineyard">Miami Vineyard</a></string>
+    <string name="InstagramProfile"><a href="https://www.instagram.com/miamivineyard/">Miami Vineyard</a></string>
+    <string name="YouTubeProfile"><a href="https://www.youtube.com/user/miamivineyard">Miami Vineyard</a></string>
+    <string name="VimeoProfile"><a href="https://vimeo.com/miamivineyard">Miami Vineyard</a></string>
 
-    <!-- Home UI -->
-    <!-- Schedule UI -->
-    <!-- Bulletin Board UI -->
-    <!-- Prayer Request UI -->
+    <string name="YouTubeTrainings"><a href="https://www.youtube.com/user/miamivineyard">Miami Vineyard</a></string>
+    <string name="VimeoTrainings"><a href="https://vimeo.com/miamivineyard">Miami Vineyard</a></string>
 
+    <string name="WebPodcasts"><a href="http://www.miamivineyard.com/podcast">MiamiVineyard.com</a></string>
+    <string name="YouTubePodcasts"><a href="https://www.youtube.com/playlist?list=PLfe5COtQEJzLSQJs0s2x92QOmvN9ck3KO">MiamiVineyard</a></string>
 </resources>
