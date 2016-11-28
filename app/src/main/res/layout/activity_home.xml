@@ -32,80 +32,8 @@
         android:layout_alignParentEnd="true"
         android:layout_marginRight="46dp"
         android:layout_marginEnd="46dp"
-        android:scaleType="centerCrop" />
-
-    <ImageButton
-        android:id="@+id/imgbtnPrayerRequest"
-        app:srcCompat="@drawable/request2"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:adjustViewBounds="true"
-        android:layout_alignTop="@+id/imgbtnSocial"
-        android:layout_centerHorizontal="true"
-        android:scaleType="centerCrop" />
-
-    <ImageButton
-        android:id="@+id/imgbtnDevotionals"
-        app:srcCompat="@drawable/devo"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:adjustViewBounds="true"
-        android:layout_alignBottom="@+id/imgbtnPrayerRequest"
-        android:layout_alignRight="@+id/imgbtnGive"
-        android:layout_alignEnd="@+id/imgbtnGive"
-        android:scaleType="centerCrop" />
-
-    <ImageButton
-        android:id="@+id/imgbtnSocial"
-        app:srcCompat="@drawable/Social"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:adjustViewBounds="true"
-        android:layout_marginTop="46dp"
-        android:layout_below="@+id/imgvwHomeIcon"
-        android:layout_alignLeft="@+id/imgbtnSchedule"
-        android:layout_alignStart="@+id/imgbtnSchedule"
-        android:scaleType="centerCrop" />
-
-    <ImageButton
-        android:id="@+id/imgbtnSchedule"
-        app:srcCompat="@drawable/schedule"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:adjustViewBounds="true"
-        android:layout_marginLeft="43dp"
-        android:layout_marginStart="43dp"
         android:scaleType="centerCrop"
-        android:layout_above="@+id/imgvwHomeIcon"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <ImageButton
-        android:id="@+id/imgbtnTraining"
-        app:srcCompat="@drawable/training"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
-        android:layout_above="@+id/imgvwHomeIcon"
-        android:layout_alignLeft="@+id/imgbtnPrayerRequest"
-        android:layout_alignStart="@+id/imgbtnPrayerRequest" />
-
-    <TextView
-        android:text="@string/txtvwHomeHeader"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="37dp"
-        android:id="@+id/lblHomeHeader"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textAlignment="center"
-        android:textStyle="normal|bold"
-        android:typeface="sans"
-        android:fontFamily="sans-serif"
-        android:textSize="20sp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:background="?android:attr/colorControlHighlight" />
 
     <ImageButton
         android:id="@+id/imgbtnGive"
@@ -116,7 +44,88 @@
         android:scaleType="centerCrop"
         android:layout_alignBottom="@+id/imgvwHomeIcon"
         android:layout_alignLeft="@+id/imgbtnBulletinBoard"
-        android:layout_alignStart="@+id/imgbtnBulletinBoard" />
+        android:layout_alignStart="@+id/imgbtnBulletinBoard"
+        android:background="?android:attr/colorControlHighlight"
+        android:cropToPadding="false" />
+
+    <TextView
+        android:text="@string/txtvwHomeHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblHomeHeader"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:typeface="sans"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imgbtnGive"
+        android:layout_alignLeft="@+id/imgvwHomeIcon"
+        android:layout_alignStart="@+id/imgvwHomeIcon" />
+
+    <ImageButton
+        android:id="@+id/imgbtnSchedule"
+        app:srcCompat="@drawable/schedule"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:adjustViewBounds="true"
+        android:layout_marginLeft="43dp"
+        android:layout_marginStart="43dp"
+        android:scaleType="fitCenter"
+        android:background="?android:attr/colorControlHighlight"
+        android:layout_below="@+id/lblHomeHeader"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/imgbtnTraining"
+        app:srcCompat="@drawable/training"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:background="?android:attr/colorControlHighlight"
+        android:layout_below="@+id/lblHomeHeader"
+        android:layout_alignLeft="@+id/imgbtnPrayerRequest"
+        android:layout_alignStart="@+id/imgbtnPrayerRequest" />
+
+    <ImageButton
+        android:id="@+id/imgbtnSocial"
+        app:srcCompat="@drawable/social"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:background="?android:attr/colorControlHighlight"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imgbtnSchedule"
+        android:layout_alignStart="@+id/imgbtnSchedule" />
+
+    <ImageButton
+        android:id="@+id/imgbtnPrayerRequest"
+        app:srcCompat="@drawable/request2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:background="?android:attr/colorControlHighlight"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/imgbtnDevotionals"
+        app:srcCompat="@drawable/devo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:background="?android:attr/colorControlHighlight"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imgbtnGive"
+        android:layout_alignStart="@+id/imgbtnGive" />
 
     <ImageButton
         android:id="@+id/imgbtnPodcasts"
@@ -125,7 +134,8 @@
         android:layout_height="80dp"
         android:adjustViewBounds="true"
         android:scaleType="centerCrop"
-        android:layout_above="@+id/imgbtnSocial"
-        android:layout_alignLeft="@+id/imgbtnSocial"
-        android:layout_alignStart="@+id/imgbtnSocial" />
+        android:background="?android:attr/colorControlHighlight"
+        android:layout_alignBottom="@+id/imgvwHomeIcon"
+        android:layout_alignLeft="@+id/imgbtnSchedule"
+        android:layout_alignStart="@+id/imgbtnSchedule" />
 </RelativeLayout>
