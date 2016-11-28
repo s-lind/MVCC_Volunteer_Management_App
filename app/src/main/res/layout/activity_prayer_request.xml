@@ -69,6 +69,7 @@
         android:inputType="text"
         android:background="@drawable/backwithborder"
         android:allowUndo="true"
+        android:id="@+id/editTextMessage"
         android:layout_weight="0.40" />
 
     <Button
