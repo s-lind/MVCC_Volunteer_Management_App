@@ -46,16 +46,49 @@ public class SocialMediaActivity extends AppCompatActivity {
         }
 
 
+        findViewById(R.id.imgbtnFacebook).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String url = "https://www.facebook.com/miamivineyard";
 
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+            }
+        });
 
+        findViewById(R.id.imgbtnTwitter).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String url = "https://twitter.com/miamivineyard";
 
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+            }
+        });
 
+        findViewById(R.id.imgbtnInstagram).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String url = "https://www.instagram.com/miamivineyard/";
 
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+            }
+        });
 
+        findViewById(R.id.imgbtnVimeo).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String url = "https://vimeo.com/miamivineyard";
 
-
-
-
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+            }
+        });
 
         findViewById(R.id.imgbtnYouTube).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -66,10 +99,8 @@ public class SocialMediaActivity extends AppCompatActivity {
                 i.setData(Uri.parse(url));
                 startActivity(i);
             }
-
-
-
         });
+
 
     }
 }

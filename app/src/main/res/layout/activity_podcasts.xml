@@ -14,7 +14,6 @@
 
     <TextView
         android:id="@+id/txtvwWebPodcast"
-        android:text="@string/lblWebPodcasts"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="13dp"
@@ -24,7 +23,8 @@
         android:textStyle="normal|bold"
         android:textColor="@android:color/black"
         android:textAlignment="center"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:text="@string/WebPodcasts" />
 
     <TextView
         android:id="@+id/txtvwPodcastsIntro"
