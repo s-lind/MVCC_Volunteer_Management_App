@@ -12,19 +12,6 @@
     tools:context="com.miamivineyard.sagrariogrullon.mvcc_volunteer_management_app.PodcastsActivity"
     android:background="@drawable/wine">
 
-    <ImageButton
-        android:id="@+id/imgbtnYouTubePodcasts"
-        android:layout_width="60dp"
-        app:srcCompat="@drawable/youtube"
-        android:layout_below="@+id/imgbtnWebPodcasts"
-        android:layout_alignLeft="@+id/imgbtnWebPodcasts"
-        android:layout_alignStart="@+id/imgbtnWebPodcasts"
-        android:layout_marginTop="37dp"
-        android:layout_alignRight="@+id/imgbtnWebPodcasts"
-        android:layout_alignEnd="@+id/imgbtnWebPodcasts"
-        android:layout_height="60dp"
-        android:scaleType="fitCenter" />
-
     <TextView
         android:id="@+id/txtvwWebPodcast"
         android:text="@string/lblWebPodcasts"
@@ -91,6 +78,17 @@
         android:textSize="24sp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/imgbtnYouTubePodcasts"
+        android:layout_width="60dp"
+        app:srcCompat="@drawable/youtube"
+        android:layout_marginTop="37dp"
+        android:layout_height="60dp"
+        android:scaleType="fitCenter"
+        android:layout_below="@+id/imgbtnWebPodcasts"
+        android:layout_alignLeft="@+id/imgbtnWebPodcasts"
+        android:layout_alignStart="@+id/imgbtnWebPodcasts" />
 
 
 </RelativeLayout>

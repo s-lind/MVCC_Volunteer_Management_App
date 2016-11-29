@@ -26,39 +26,9 @@
         android:fontFamily="sans-serif"
         android:textColor="@android:color/black" />
 
-    <ImageButton
-        android:id="@+id/imgbtnFacebook"
-        app:srcCompat="@drawable/facebook"
-        android:contentDescription="@string/lbl_facebook_handle"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:adjustViewBounds="true"
-        android:layout_marginLeft="72dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="16dp"
-        android:scaleType="fitCenter"
-        android:elevation="0dp"
-        android:layout_below="@+id/txtvwHeader"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"/>
-
-    <TextView
-        android:id="@+id/txtvwFacebook"
-        android:text="@string/lbl_facebook_handle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textStyle="normal|bold"
-        android:textAlignment="center"
-        android:textSize="18sp"
-        android:layout_marginBottom="12dp"
-        android:layout_above="@+id/imgbtnTwitter"
-        android:layout_alignRight="@+id/txtvwHeader"
-        android:layout_alignEnd="@+id/txtvwHeader"
-        android:textColor="@android:color/black" />
-
     <TextView
         android:id="@+id/txtvwTwitter"
-        android:text="@string/lbl_instagram_handle"
+        android:text="@string/TwitterProfile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="normal|bold"
@@ -71,26 +41,13 @@
         android:textColor="@android:color/black" />
 
     <ImageButton
-        android:id="@+id/imgbtnYouTube"
-        app:srcCompat="@drawable/youtube"
-        android:contentDescription="@string/lbl_youtube_handle"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
-        android:layout_below="@+id/imgbtnVimeo"
-        android:layout_alignLeft="@+id/imgbtnVimeo"
-        android:layout_alignStart="@+id/imgbtnVimeo"
-        android:layout_marginTop="21dp" />
-
-    <ImageButton
         android:id="@+id/imgbtnVimeo"
         app:srcCompat="@drawable/vimeo"
         android:contentDescription="@string/lbl_vimeo_handle"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
+        android:scaleType="centerCrop"
         android:layout_below="@+id/imgbtnInstagram"
         android:layout_alignLeft="@+id/imgbtnInstagram"
         android:layout_alignStart="@+id/imgbtnInstagram"
@@ -98,7 +55,7 @@
 
     <TextView
         android:id="@+id/txtvwVimeo"
-        android:text="@string/lbl_twitter_handle"
+        android:text="@string/VimeoProfile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="normal|bold"
@@ -111,22 +68,8 @@
         android:textColor="@android:color/black" />
 
     <TextView
-        android:id="@+id/txtvwYouTube"
-        android:text="@string/lbl_youtube_handle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textStyle="normal|bold"
-        android:textAlignment="center"
-        android:textSize="18sp"
-        android:layout_alignTop="@+id/imgbtnYouTube"
-        android:layout_alignLeft="@+id/txtvwVimeo"
-        android:layout_alignStart="@+id/txtvwVimeo"
-        android:layout_marginTop="13dp"
-        android:textColor="@android:color/black" />
-
-    <TextView
         android:id="@+id/txtvwInstagram"
-        android:text="@string/lbl_instagram_handle"
+        android:text="@string/InstagramProfile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="normal|bold"
@@ -145,7 +88,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
+        android:scaleType="centerCrop"
         android:layout_below="@+id/imgbtnTwitter"
         android:layout_alignLeft="@+id/imgbtnTwitter"
         android:layout_alignStart="@+id/imgbtnTwitter"
@@ -158,10 +101,65 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
+        android:scaleType="centerCrop"
         android:layout_below="@+id/imgbtnFacebook"
         android:layout_alignLeft="@+id/imgbtnFacebook"
         android:layout_alignStart="@+id/imgbtnFacebook"
         android:layout_marginTop="10dp" />
+
+    <ImageButton
+        android:id="@+id/imgbtnFacebook"
+        app:srcCompat="@drawable/facebook"
+        android:contentDescription="@string/lbl_facebook_handle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="18dp"
+        android:scaleType="centerCrop"
+        android:elevation="0dp"
+        android:layout_below="@+id/txtvwHeader"
+        android:layout_toLeftOf="@+id/txtvwHeader"
+        android:layout_toStartOf="@+id/txtvwHeader" />
+
+    <TextView
+        android:id="@+id/txtvwFacebook"
+        android:text="@string/FacebookProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp"
+        android:textColor="@android:color/black"
+        android:layout_above="@+id/imgbtnTwitter"
+        android:layout_toRightOf="@+id/imgbtnFacebook"
+        android:layout_toEndOf="@+id/imgbtnFacebook" />
+
+    <ImageButton
+        android:id="@+id/imgbtnYouTube"
+        app:srcCompat="@drawable/youtube"
+        android:contentDescription="@string/lbl_youtube_handle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/imgbtnVimeo"
+        android:layout_alignLeft="@+id/imgbtnVimeo"
+        android:layout_alignStart="@+id/imgbtnVimeo" />
+
+    <TextView
+        android:id="@+id/txtvwYouTube"
+        android:text="@string/YouTubeProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="11dp"
+        android:layout_alignBottom="@+id/imgbtnYouTube"
+        android:layout_toRightOf="@+id/imgbtnYouTube"
+        android:layout_toEndOf="@+id/imgbtnYouTube" />
 
 </RelativeLayout>
