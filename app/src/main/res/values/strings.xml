@@ -50,4 +50,23 @@
 
     <string name="WebPodcasts"><a href="http://www.miamivineyard.com/podcast">MiamiVineyard.com</a></string>
     <string name="YouTubePodcasts"><a href="https://www.youtube.com/playlist?list=PLfe5COtQEJzLSQJs0s2x92QOmvN9ck3KO">MiamiVineyard</a></string>
+
+    <!-- Bulletin -->
+
+    <string name="Select_Feed">Select Feed</string>
+
+    <string-array name="feed_list">
+        <item>MVCC Cafe</item>
+        <item>MVCC Ushers</item>
+        <item>MVCC TEST</item>
+
+    </string-array>
+
+    <integer-array name="feed_img_list">
+        <item>@drawable/vine</item>
+        <item>@drawable/twitter</item>
+        <item>@drawable/facebook</item>
+
+    </integer-array>
+
 </resources>
