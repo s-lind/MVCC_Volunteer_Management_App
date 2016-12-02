@@ -54,6 +54,12 @@
     <!-- Bulletin -->
 
     <string name="Select_Feed">Select Feed</string>
+    <string name="training_resources_videos">Training Videos</string>
+    <string name="lbl_training_resources">Training Resources</string>
+    <string name="lbl_more_training_resources">For more training resources please reach out to your Team Leader.</string>
+    <string name="lbl_step_by_step_guides">Step-by-Step Guides</string>
+    <string name="prayer_request_name">Name</string>
+    <string name="prayer_request_type">Type of Request</string>
 
     <string-array name="feed_list">
         <item>MVCC Cafe</item>
