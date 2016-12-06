@@ -11,23 +11,27 @@
     tools:context="com.miamivineyard.sagrariogrullon.mvcc_volunteer_management_app.DevotionalsActivity"
     android:background="@drawable/wine">
 
-    <ExpandableListView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/textView3"
-        android:layout_marginTop="28dp"
-        android:id="@+id/elvDevotionals" />
-
     <TextView
         android:text="Devotionals"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="34dp"
-        android:id="@+id/textView3"
+        android:id="@+id/txtvwDevotionalsHeader"
         android:textSize="24sp"
         android:textStyle="normal|bold"
         android:textAlignment="center"
         android:textColor="@android:color/black"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+
+    <ExpandableListView
+        android:id="@+id/elvDevotionals"
+        android:layout_below="@+id/txtvwDevotionalsHeader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="28dp"
+        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+        android:divider="@color/colorPrimary"
+        android:dividerHeight="0.5dp"
+        />
 </RelativeLayout>
