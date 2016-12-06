@@ -12,12 +12,13 @@
     android:background="@drawable/wine">
 
     <Spinner
-        android:layout_width="match_parent"
+        android:id="@+id/spnSelectTeamSchedule"
+        android:prompt="@string/Select_Feed"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="61dp"
-        android:id="@+id/spnSelectTeamSchedule"
         android:spinnerMode="dropdown" />
 
     <CalendarView
@@ -33,15 +34,11 @@
         android:text="Select your Team to view your schedule.."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="19dp"
         android:id="@+id/textView"
-        android:layout_alignParentTop="true"
-        android:layout_alignLeft="@+id/clnvwSchedule"
-        android:layout_alignStart="@+id/clnvwSchedule"
         android:textStyle="normal|bold"
         android:textAlignment="center"
         android:textColor="@android:color/black"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

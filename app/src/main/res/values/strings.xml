@@ -75,5 +75,12 @@
         <item>@drawable/facebook</item>
 
     </integer-array>
+        <string-array name="schedule_array">
+            <item>Kids Church</item>
+            <item>Ushers</item>
+            <item>Cafe</item>
+            <item>Bookstore</item>
+            <item>Proofreaders</item>
+        </string-array>
 
 </resources>
